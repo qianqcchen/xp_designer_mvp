@@ -1,0 +1,15 @@
+pyproject.toml
+xp_designer/__init__.py
+xp_designer/cli.py
+xp_designer.egg-info/PKG-INFO
+xp_designer.egg-info/SOURCES.txt
+xp_designer.egg-info/dependency_links.txt
+xp_designer.egg-info/entry_points.txt
+xp_designer.egg-info/requires.txt
+xp_designer.egg-info/top_level.txt
+xp_designer/core/__init__.py
+xp_designer/core/generator.py
+xp_designer/core/spec.py
+xp_designer/io/__init__.py
+xp_designer/rules/__init__.py
+xp_designer/stats/__init__.py

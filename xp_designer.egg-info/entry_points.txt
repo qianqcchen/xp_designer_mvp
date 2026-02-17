@@ -1,0 +1,2 @@
+[console_scripts]
+xpdesigner = xp_designer.cli:main

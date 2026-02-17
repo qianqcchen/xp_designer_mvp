@@ -1,0 +1,18 @@
+[project]
+name = "xp-designer"
+version = "0.1.0"
+description = "AI-powered experiment design document generator"
+authors = [{name="Chris Chen"}]
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2",
+    "pydantic",
+    "typer",
+]
+
+[project.scripts]
+xpdesigner = "xp_designer.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
