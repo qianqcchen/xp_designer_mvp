@@ -1,0 +1,108 @@
+metrics:
+  avg_login_count:
+    display_name_zh: 人均登陆次数
+    group: 活跃
+    subgroup: 活跃频次
+    definition: 每个用户平均登陆的次数  每日登陆总次数/DAU
+
+  avg_active_days:
+    display_name_zh: 人均活跃天数
+    group: 活跃
+    subgroup: 活跃天数
+    definition: 每个用户平均活跃的天数  总活跃天数/总活跃人数
+
+  avg_game_duration:
+    display_name_zh: 人均游戏时长
+    group: 活跃
+    subgroup: 活跃时长
+    definition: 每个用户平均游戏时长  每日游戏总时长/DAU
+
+  active_user_ratio:
+    display_name_zh: 活跃用户占比
+    group: 活跃
+    subgroup: 留存
+    definition: 活跃用户占比  活跃用户数/用户总数
+
+  retention_rate_day_2:
+    display_name_zh: 次日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第二日活跃用户占比 不对用户命中实验的次数做去重	T+1日活跃人数/T日活跃人数
+
+  retention_rate_day_3:
+    display_name_zh: 3日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第3日活跃用户占比 不对用户命中实验的次数做去重 T+2日活跃人数/T日活跃人数
+
+  retention_rate_day_4:
+    display_name_zh: 4日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第4日活跃用户占比 不对用户命中实验的次数做去重 T+3日活跃人数/T日活跃人数
+
+  retention_rate_day_5:
+    display_name_zh: 5日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第5日活跃用户占比 不对用户命中实验的次数做去重 T+4日活跃人数/T日活跃人数
+
+  retention_rate_day_6:
+    display_name_zh: 6日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第6日活跃用户占比 不对用户命中实验的次数做去重 T+5日活跃人数/T日活跃人数
+
+  retention_rate_day_7:
+    display_name_zh: 7日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第7日活跃用户占比 不对用户命中实验的次数做去重 T+6日活跃人数/T日活跃人数
+
+  retention_rate_day_10:
+    display_name_zh: 10日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第10日活跃用户占比 不对用户命中实验的次数做去重 T+9日活跃人数/T日活跃人数
+
+  retention_rate_day_2_unique:
+    display_name_zh: 次日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第二日活跃用户占比 只统计用户首次命中实验的数据 T+1日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_3_unique:
+    display_name_zh: 3日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第3日活跃用户占比 只统计用户首次命中实验的数据 T+2日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_4_unique:
+    display_name_zh: 4日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第4日活跃用户占比 只统计用户首次命中实验的数据 T+3日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_5_unique:
+    display_name_zh: 5日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第5日活跃用户占比 只统计用户首次命中实验的数据 T+4日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_6_unique:
+    display_name_zh: 6日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第6日活跃用户占比 只统计用户首次命中实验的数据 T+5日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_7_unique:
+    display_name_zh: 7日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第7日活跃用户占比 只统计用户首次命中实验的数据 T+6日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_10_unique:
+    display_name_zh: 10日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第10日活跃用户占比 只统计用户首次命中实验的数据 T+9日活跃人数/T日活跃人数 T日为首次命中实验

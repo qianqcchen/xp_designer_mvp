@@ -1,0 +1,15 @@
+# Experiment Design Doc (MVP)
+
+## Objective
+{{ spec.objective }}
+
+## Population
+{{ spec.population }}
+
+## Unit
+{{ spec.unit }}
+
+## Metrics
+{% for m in spec.metrics %}
+- **{{ m.name }}** ({{ m.type }}){% if m.definition %}: {{ m.definition }}{% endif %}
+{% endfor %}
