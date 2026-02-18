@@ -1,13 +1,38 @@
-# Experiment Design Doc (MVP)
+# 【实验设计】Test experiment
 
-## Objective
-Test experiment: delay ads for new users
+## 实验目标
+### 实验背景
+根据实验目标补充背景与现状说明。
 
-## Population
-all_users
+### 因果链路
+根据实验目标补充因果假设与推理链路。
 
-## Unit
-user_id
+## 实验指标
+### 核心指标
+- D1_retention
+### 次级指标
+- （待填写）
+### 护栏指标
+- ARPDAU
 
-## Metrics
-- **D1_retention** (core)- **ARPDAU** (guardrail)
+## 实验设计
+### 用户分流
+实验组 / 对照组，按 user_id 随机分流；可在此补充具体人群与分流比例。
+### 实验时长
+建议 2 周，可根据指标敏感度调整。
+
+## Power Analysis
+
+## 执行细节和注意事项
+### 实验和数据监控checklist
+所有checklist事项均需要在实验开始前/实验进行中进行天级别检查：
+* SRM（分组样本比例是否符合预期）
+* 曝光一致性（组间曝光定义一致，检查是否存在分组泄漏）
+* 埋点完整性（确认所有埋点信息清单）
+* 检测分组下发策略是否生效
+
+### 回滚标准
+SRM 异常或核心指标显著负向时回滚；可在此补充具体阈值。
+
+## 分析下钻维度
+渠道、设备、地域等（按需填写）。

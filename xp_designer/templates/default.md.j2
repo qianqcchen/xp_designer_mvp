@@ -1,15 +1,38 @@
-# Experiment Design Doc (MVP)
+# 【实验设计】{{ spec.objective }}
 
-## Objective
-{{ spec.objective }}
+## 实验目标
+### 实验背景
+{{ spec.xp_background }}
 
-## Population
-{{ spec.population }}
+### 因果链路
+{{ spec.causal_reasoning }}
 
-## Unit
-{{ spec.unit }}
+## 实验指标
+### 核心指标
+{{ spec.xp_primary_metrics }}
+### 次级指标
+{{ spec.xp_secondary_metrics }}
+### 护栏指标
+{{ spec.xp_guardrail_metrics }}
 
-## Metrics
-{% for m in spec.metrics %}
-- **{{ m.name }}** ({{ m.type }}){% if m.definition %}: {{ m.definition }}{% endif %}
-{% endfor %}
+## 实验设计
+### 用户分流
+{{ spec.xp_user_segmentation }}
+### 实验时长
+{{ spec.xp_duration }}
+
+## Power Analysis
+
+## 执行细节和注意事项
+### 实验和数据监控checklist
+所有checklist事项均需要在实验开始前/实验进行中进行天级别检查：
+* SRM（分组样本比例是否符合预期）
+* 曝光一致性（组间曝光定义一致，检查是否存在分组泄漏）
+* 埋点完整性（确认所有埋点信息清单）
+* 检测分组下发策略是否生效
+
+### 回滚标准
+{{ spec.xp_rollback_standard }}
+
+## 分析下钻维度
+{{ spec.xp_analysis_drilldown_dimensions }}
