@@ -1,0 +1,381 @@
+metrics:
+
+################################## 活跃指标 ##################################
+
+  avg_login_count:
+    display_name_zh: 人均登陆次数
+    group: 活跃
+    subgroup: 活跃频次
+    definition: 每个用户平均登陆的次数  每日登陆总次数/DAU
+
+  avg_active_days:
+    display_name_zh: 人均活跃天数
+    group: 活跃
+    subgroup: 活跃天数
+    definition: 每个用户平均活跃的天数  总活跃天数/总活跃人数
+
+  avg_game_duration:
+    display_name_zh: 人均游戏时长
+    group: 活跃
+    subgroup: 活跃时长
+    definition: 每个用户平均游戏时长  每日游戏总时长/DAU
+
+  active_user_ratio:
+    display_name_zh: 活跃用户占比
+    group: 活跃
+    subgroup: 留存
+    definition: 活跃用户占比  活跃用户数/用户总数
+
+  retention_rate_day_2:
+    display_name_zh: 次日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第二日活跃用户占比 不对用户命中实验的次数做去重	T+1日活跃人数/T日活跃人数
+
+  retention_rate_day_3:
+    display_name_zh: 3日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第3日活跃用户占比 不对用户命中实验的次数做去重 T+2日活跃人数/T日活跃人数
+
+  retention_rate_day_4:
+    display_name_zh: 4日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第4日活跃用户占比 不对用户命中实验的次数做去重 T+3日活跃人数/T日活跃人数
+
+  retention_rate_day_5:
+    display_name_zh: 5日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第5日活跃用户占比 不对用户命中实验的次数做去重 T+4日活跃人数/T日活跃人数
+
+  retention_rate_day_6:
+    display_name_zh: 6日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第6日活跃用户占比 不对用户命中实验的次数做去重 T+5日活跃人数/T日活跃人数
+
+  retention_rate_day_7:
+    display_name_zh: 7日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第7日活跃用户占比 不对用户命中实验的次数做去重 T+6日活跃人数/T日活跃人数
+
+  retention_rate_day_10:
+    display_name_zh: 10日留存率_不去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第10日活跃用户占比 不对用户命中实验的次数做去重 T+9日活跃人数/T日活跃人数
+
+  retention_rate_day_2_unique:
+    display_name_zh: 次日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第二日活跃用户占比 只统计用户首次命中实验的数据 T+1日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_3_unique:
+    display_name_zh: 3日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第3日活跃用户占比 只统计用户首次命中实验的数据 T+2日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_4_unique:
+    display_name_zh: 4日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第4日活跃用户占比 只统计用户首次命中实验的数据 T+3日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_5_unique:
+    display_name_zh: 5日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第5日活跃用户占比 只统计用户首次命中实验的数据 T+4日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_6_unique:
+    display_name_zh: 6日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第6日活跃用户占比 只统计用户首次命中实验的数据 T+5日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_7_unique:
+    display_name_zh: 7日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第7日活跃用户占比 只统计用户首次命中实验的数据 T+6日活跃人数/T日活跃人数 T日为首次命中实验
+
+  retention_rate_day_10_unique:
+    display_name_zh: 10日留存率_去重
+    group: 活跃
+    subgroup: 留存
+    definition: 用户活跃后第10日活跃用户占比 只统计用户首次命中实验的数据 T+9日活跃人数/T日活跃人数 T日为首次命中实验
+
+################################## 收入指标 ##################################
+
+  eCPM_interstitial:
+    display_name_zh: eCPM_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 插屏广告每千次广告展示收入 美元 插屏广告总收入/插屏广告展示次数*1000
+
+  ad_request_completion_rate_interstitial:
+    display_name_zh: 广告请求完成率_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 插屏广告请求收到回报的占比 插屏广告请求成功+插屏广告请求失败/插屏广告请求总数
+
+  ad_cache_success_rate_interstitial:
+    display_name_zh: 广告缓存成功率_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 插屏广告缓存池中有广告的概率 插屏广告加载成功数/插屏广告请求总数
+
+  ad_ready_rate_interstitial:
+    display_name_zh: 广告就绪率_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 插屏广告机会中广告加载成功的概率 插屏广告机会到达且加载成功数/插屏广告机会到达数
+
+  ad_show_success_rate_interstitial:
+    display_name_zh: 广告展示成功率_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 插屏广告在缓存池ready的情况下调show展示的成功率 插屏广告展示成功次数/插屏广告展示调show次数
+
+  avg_ad_show_count_interstitial:
+    display_name_zh: 人均广告展示次数_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 平均每人展示插屏广告次数 每天展示插屏广告总次数/DAU
+
+  avg_ad_revenue_interstitial:
+    display_name_zh: 人均广告收益_插屏广告
+    group: 收入
+    subgroup: 插屏广告
+    definition: 人均插屏广告收入贡献 美分 总插屏广告收入/总活跃人数
+  
+  eCPM_rewarded:
+    display_name_zh: eCPM_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 激励广告每千次广告展示收入 美元 激励广告总收入/激励广告展示次数*1000
+
+  ad_request_completion_rate_rewarded:
+    display_name_zh: 广告请求完成率_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 激励广告请求收到回报的占比 激励广告请求成功+激励广告请求失败/激励广告请求总数
+
+  ad_cache_success_rate_rewarded:
+    display_name_zh: 广告缓存成功率_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 激励广告缓存池中有广告的概率 激励广告加载成功数/激励广告请求总数
+
+  ad_ready_rate_rewarded:
+    display_name_zh: 广告就绪率_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 激励广告机会中广告加载成功的概率 激励广告机会到达且加载成功数/激励广告机会到达数
+
+  ad_show_success_rate_rewarded:
+    display_name_zh: 广告展示成功率_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 激励广告在缓存池ready的情况下调show展示的成功率 激励广告展示成功次数/激励广告展示调show次数
+
+  avg_ad_show_count_rewarded:
+    display_name_zh: 人均广告展示次数_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 平均每人展示激励广告次数 每天展示激励广告总次数/DAU
+
+  avg_ad_revenue_rewarded:
+    display_name_zh: 人均广告收益_激励广告
+    group: 收入
+    subgroup: 激励广告
+    definition: 人均激励广告收入贡献 美分 总激励广告收入/总活跃人数
+
+  eCPM_banner:
+    display_name_zh: eCPM_横幅广告
+    group: 收入
+    subgroup: 横幅广告
+    definition: 横幅广告每千次广告展示收入 美元 横幅广告总收入/横幅广告展示次数*1000
+
+  avg_ad_show_count_banner:
+    display_name_zh: 人均广告展示次数_横幅广告
+    group: 收入
+    subgroup: 横幅广告
+    definition: 平均每人展示横幅广告次数 每天展示横幅广告总次数/DAU
+
+  avg_ad_revenue_banner:
+    display_name_zh: 人均广告收益_横幅广告
+    group: 收入
+    subgroup: 横幅广告
+    definition: 人均横幅广告收入贡献 美分 总横幅广告收入/总活跃人数
+
+  avg_ad_revenue:
+    display_name_zh: 人均广告收益
+    group: 收入
+    subgroup: 收入汇总
+    definition: 人均广告收入贡献 美分 总广告收入/总活跃人数
+
+  avg_ad_show_count:
+    display_name_zh: 人均广告展示次数
+    group: 收入
+    subgroup: 收入汇总
+    definition: 平均每人展示广告次数 每天展示广告总次数/DAU
+
+  avg_ad_interval:
+    display_name_zh: 平均广告展示间隔
+    group: 收入
+    subgroup: 收入汇总
+    definition: 每次登陆中两次广告展示之间的平均时间间隔 广告间隔总时长/广告间隔总次数
+
+  avg_ad_time_to_first_ad:
+    display_name_zh: 平均首次广告出现时间
+    group: 收入
+    subgroup: 收入汇总
+    definition: 每次登陆用户从登入到首次广告展示的时间 广告间隔总时长/广告间隔总次数
+
+################################## 玩法指标 ##################################
+
+  level_completion_rate:
+    display_name_zh: 关卡通关率
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 关卡通关总次数/关卡总局数
+
+  avg_level_completion_time:
+    display_name_zh: 关卡通关平均时长
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 关卡通关总时长/关卡通关总次数
+
+  avg_level_time:
+    display_name_zh: 关卡平均时长
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 关卡消耗总时长/关卡总局数
+
+  level_reopen_rate:
+    display_name_zh: 关卡失败再开率
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 关卡失败后选择立即重新开始并再次进入该关卡的占比 关卡重开次数/关卡失败次数
+
+  level_prop_item_used_rate:
+    display_name_zh: 关卡道具使用率
+    group: 玩法
+    subgroup: 关卡道具使用
+    definition: 使用道具的局数占比 使用道具的关卡局数/关卡总局数
+
+  level_prop_item_used_frequency:
+    display_name_zh: 关卡道具使用频率
+    group: 玩法
+    subgroup: 关卡道具使用
+    definition: 平均每局游戏使用道具次数 使用道具总次数/关卡总局数
+
+  level_prop_item_used_completion_rate:
+    display_name_zh: 关卡道具使用通关率
+    group: 玩法
+    subgroup: 关卡道具使用
+    definition: 关卡使用道具对局的通关率 使用道具的对局通关次数/使用道具的对局总数
+
+################################## 麻将特性指标 ##################################
+
+  avg_level_enter_count:
+    display_name_zh: 人均进入对局数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人进入对局的次数 通关/失败/中途退出 每日进入对局总数/DAU
+
+  avg_level_finished_count:
+    display_name_zh: 人均完成对局数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人完成对局的次数 通关/失败 每日完成对局总数/DAU
+
+  avg_level_completion_count:
+    display_name_zh: 人均通关对局数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人通关对局的次数 仅通关 每日通关对局总数/DAU
+  
+  avg_duration_per_match:
+    display_name_zh: 人均配对决策时长
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每人两次配对之间的平均时间间隔 总关卡耗时/总配对次数
+
+  avg_match_count_per_user:
+    display_name_zh: 人均配对数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人配对的次数 每日配对总次数/DAU
+
+  avg_match_count_per_level:
+    display_name_zh: 场均配对数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每局平均配对的次数 每日配对总次数/每日进入对局总数
+
+  avg_auto_match_count_per_user:
+    display_name_zh: 人均自动配对数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人自动配对的次数 每日自动配对总次数/DAU
+
+  avg_auto_match_count_per_level:
+    display_name_zh: 场均自动配对数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每局平均自动配对的次数 每日自动配对总次数/每日进入对局总数
+    
+  avg_combo_count_per_user:
+    display_name_zh: 人均连击数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人连击的次数 每日连击总次数/DAU
+
+  avg_combo_count_per_level:
+    display_name_zh: 场均连击数
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每局平均连击的次数 每日连击总次数/每日进入对局总数
+
+  avg_item_used_count_per_user_hint:
+    display_name_zh: 人均道具使用次数_提示
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人使用提示道具的次数 使用提示道具的总次数/总人数
+
+  avg_item_used_count_per_level_hint:
+    display_name_zh: 场均道具使用次数_提示
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每局平均使用提示道具的次数 使用提示道具的总次数/每日进入对局总数
+
+  avg_item_used_count_per_user_shuffle:
+    display_name_zh: 人均道具使用次数_洗牌
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人使用洗牌道具的次数 使用洗牌道具的总次数/总人数
+
+  avg_item_used_count_per_level_shuffle:
+    display_name_zh: 场均道具使用次数_洗牌
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 每局平均使用洗牌道具的次数 使用洗牌道具的总次数/每日进入对局总数
+
+  avg_item_used_rate_per_user_hint:
+    display_name_zh: 人均道具使用率_提示
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人使用提示道具的局数占比 使用提示道具的关卡局数/关卡总局数
+
+  avg_item_used_rate_per_user_shuffle:
+    display_name_zh: 人均道具使用率_洗牌
+    group: 玩法
+    subgroup: 关卡难易度
+    definition: 平均每人使用洗牌道具的局数占比 使用洗牌道具的关卡局数/关卡总局数
