@@ -9,10 +9,14 @@ dependencies = [
     "pydantic",
     "typer",
     "pyyaml",
+    "openai",
 ]
 
 [project.scripts]
 xpdesigner = "xp_designer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xp_designer*"]
 
 [build-system]
 requires = ["setuptools>=61.0"]

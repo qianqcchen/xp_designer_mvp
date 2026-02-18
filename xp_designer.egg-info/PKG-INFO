@@ -7,3 +7,5 @@ Requires-Python: >=3.10
 Requires-Dist: jinja2
 Requires-Dist: pydantic
 Requires-Dist: typer
+Requires-Dist: pyyaml
+Requires-Dist: openai

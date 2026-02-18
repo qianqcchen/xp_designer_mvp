@@ -9,11 +9,31 @@
 
 ## 实验指标
 ### 核心指标
-{{ spec.xp_primary_metrics }}
+| 指标 | 定义 |
+| --- | --- |
+{% for name, definition in spec.xp_primary_metrics | metrics_to_rows %}
+| {{ name }} | {{ definition }} |
+{% else %}
+| （待填写） | |
+{% endfor %}
+
 ### 次级指标
-{{ spec.xp_secondary_metrics }}
+| 指标 | 定义 |
+| --- | --- |
+{% for name, definition in spec.xp_secondary_metrics | metrics_to_rows %}
+| {{ name }} | {{ definition }} |
+{% else %}
+| （待填写） | |
+{% endfor %}
+
 ### 护栏指标
-{{ spec.xp_guardrail_metrics }}
+| 指标 | 定义 |
+| --- | --- |
+{% for name, definition in spec.xp_guardrail_metrics | metrics_to_rows %}
+| {{ name }} | {{ definition }} |
+{% else %}
+| （待填写） | |
+{% endfor %}
 
 ## 实验设计
 ### 用户分流

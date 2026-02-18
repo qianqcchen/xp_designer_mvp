@@ -9,7 +9,11 @@ xp_designer.egg-info/requires.txt
 xp_designer.egg-info/top_level.txt
 xp_designer/core/__init__.py
 xp_designer/core/generator.py
+xp_designer/core/metrics_lib.py
 xp_designer/core/spec.py
 xp_designer/io/__init__.py
+xp_designer/io/render.py
+xp_designer/llm/__init__.py
+xp_designer/llm/client.py
 xp_designer/rules/__init__.py
 xp_designer/stats/__init__.py

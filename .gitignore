@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 dist/
 build/
+xp_designer/llm/.api_key
